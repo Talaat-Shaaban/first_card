@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #333f45;
+}
+
+.continar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 374px;
+    height: 582px;
+    background-color: rgb(214, 225, 225);
+    transform: translate(0%, 50%);
+    border-radius: 6px;
+    box-shadow: 0px 6px 15px -4px #000;
+    overflow: hidden;
+
+}
+
+.card:hover {
+
+    box-shadow: 0px 25px 50px -16px #000000;
+    transition: .5s ease;
+}
+
+
+.card img {
+    width: 374px;
+    height: 468px;
+    margin-top: -100px;
+}
+
+.card h2 {
+    padding-left: 18px;
+    padding-top: 6px;
+    word-spacing: 3px;
+}
+.card span {
+    font-style: italic;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.card p {
+    padding: 0 20px;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+.card p a {
+text-transform: capitalize;
+font-style: italic;
+}
+
+.icon {
+    display: flex;
+    transform: translate(120px, 89%);
+    position: absolute;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+ .icon span{
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 5px;
+
+}
+ .icon .f {
+    background-color: blue;
+
+}
+ .icon .f:hover {
+
+
+}
+
+ .icon .x {
+    background-color: rgb(0, 0, 0);
+
+}
+
+ .icon .y{
+    background-color: rgb(203, 46, 46);
+}
+
+ .icon .t{
+    background-color: rgb(43, 165, 198);
+}
+
